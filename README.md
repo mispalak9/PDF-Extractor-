@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+<<<<<<< 
 # Full-Stack-Task
 =======
 # PDF-Extractor-
