@@ -1,3 +1,34 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  background-color: #f0f0f0;
+  background-image: url('https://wallpapers.com/images/hd/plain-white-background-xogwcn03366cdja2.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+}
+
+body::before,
+body::after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 100px; /* Adjust as needed */
+}
+
+body::before {
+  top: 20px; /* Adjust as needed */
+  content: '( ◍•ᴗ•◍)'; /* Replace with the desired top emoji */
+}
+
+body::after {
+  bottom: 20px; /* Adjust as needed */
+  content: '⋆ ˚｡✎𓍯𓂃𓏧♡'; /* Replace with the desired bottom emoji */
+}
+
 .App {
   display: flex;
   flex-direction: column;
@@ -49,14 +80,15 @@
 .file-upload-box {
   width: 300px;
   padding: 20px;
-  border: 1px solid #ddd;
+  border: 2px solid grey; /* Black border */
   border-radius: 4px;
-  background-color: #f9f9f9;
+  background-color: whitesmoke;
   margin: 0 auto;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  box-shadow: 0 8px 24px rgba(4, 4, 2, 0.5), 8px 0 24px rgba(4, 4, 2, 0.5); /* Black shadow */
 }
 
 .file-upload-box h1 {
