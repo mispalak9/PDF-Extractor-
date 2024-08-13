@@ -2,6 +2,8 @@
 
 The PDF Extractor is a web application designed to handle the uploading and extraction of text from PDF files. Built using a full-stack technology stack, this project aims to provide a seamless and efficient solution for extracting textual content from PDFs, ensuring safety and speed even with large files.
 
+![image alt](https://github.com/mispalak9/PDF-Extractor-/blob/850bf30a69e9d498bab7b011d9f22bf4c5a2caef/Output%20IMG.jpg)
+
 ## Technologies Used
 
 - **JavaScript:** Utilized for dynamic content manipulation and interactivity within the application. JavaScript handles the core logic for processing PDF files and communicating with the back-end services.
